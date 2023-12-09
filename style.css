@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Yanone Kaffeesatz";
+    color: whitesmoke;
+}
+body{
+    background-color: #201f1f;
+}
+/* Header */
+.header{
+    background-color: #00000000;
+    background-image: url(./assets/austin-schmid-hRdVSYpffas-unsplash.jpg);
+    background-size: cover;
+    color: #FAFAFA;
+    height: 100vb;
+    text-align: center;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 45px;
+    margin-top: 25px;
+}
+
+p{
+    font-size: 24px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.nav-link{
+    color: #FAFAFA;
+}
+
+.nav-link:hover{
+    color: black;
+}
+.logo_navbar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo_navbar img{
+    width: 150px;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.boton_inscribirse{
+    background-color: #841818;
+    color: whitesmoke;
+    border: 5px solid black;
+    border: none;
+    padding: 26px 50px;
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    transition-duration: 0.4s;
+    box-shadow: 0px 0px 2px black;
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+}
+.boton_inscribirse:hover{
+    box-shadow: 0px 0px 10px black;
+}
+
+/* Banner */
+
+video{
+    width: 100%;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.section_aprenderas {
+    background-color: #201f1f;
+    color:whitesmoke;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Packs*/
+
+.pack{
+    background-color: #201f1f;
+}
+
+.modulos_workshop{
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.lista_modulos ul{
+    list-style: none;
+    padding: 0;
+}
+
+.lista_modulos ul li{
+    font-size: 20px;
+    margin-top: 10px;
+    border: 5px solid #84181854;
+    padding: 5px;
+    border-radius: 15px;
+}
+h3{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+h6{
+    font-size: 24px;
+}
+
+
+/* Bonos */
+.numero_bono{
+    border: 3px solid #E0BB20;
+    width: 50px;
+    height: 50px;
+    border-radius: 9999999999px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.contenedor_bonos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.bono{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    height: 400px;
+    border: 5px solid #84181854;
+    
+}
+
+.boton{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+
+.mas_info{
+    background-color: #201f1f;
+    text-align: center;
+
+}
+h4{
+    margin-bottom: 30px;
+    font-size: 40px;
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 700;
+
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.info p {
+    width: 400px;
+    text-align: left;
+    margin-left: 50px;
+}
+.info ul{
+    width: 700px;
+}
+
+.after{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.after p {
+    width: 400px;
+    margin-right: 30px;
+
+}
+
+.faq{
+    margin-top: 50px;
+    background-color: #201f1f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.accordion-body{
+    color: black;
+    background: whitesmoke;
+}
+
+.accordion-header button{
+    background-color: #841818;
+    color: whitesmoke;
+    border-color: #E0BB20;
+}
+
+
+
+.accordion{
+    width: 300px;
+    color: whitesmoke;
+    background-color: #841818;
+    border-color: #E0BB20;
+    --bs-accordion-active-bg: #841818;
+    --bs-accordion-active-color: whitesmoke;
+    --bs-accordion-border-color: #E0BB20;
+
+}
+
+footer{
+    margin-top: 25px;
+    background-color: #181717;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rrss{
+    color: whitesmoke;
+    fill: whitesmoke;
+}
+
+footer div h5{
+    font-size: 30px;
+    width: 130px;
+}
+
+
+@media  (min-width: 1080px) {
+    .header{
+        text-align: left;
+    }
+    .texto_header{
+        margin-left: 200px;
+    }
+    h1{
+        font-size: 65px;
+    }
+    p{
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    .section_aprenderas{
+        flex-wrap: nowrap;
+        justify-content: space-around;
+    }
+    
+    .texto_aprenderas{
+        margin-left: 30px;
+        margin-right: 200px;
+        width: 400px;
+    }
+
+    .video{
+        justify-self: center;
+        align-self: center;
+        width: 500px;
+        margin-left: 200px;
+    }
+
+    video{
+        width: 500px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        
+    }
+
+    .lista_modulos ul li{
+        width: 460px;
+        margin-left: 50px;
+    }
+
+    .accordion{
+        width: 600px;
+    }
+}
